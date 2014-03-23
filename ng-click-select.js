@@ -45,13 +45,13 @@
     return {
       restrict: 'AC',
       link: function (scope, element, attrs) {
-        element.on('click', function () {
+        element.bind('click', function () {
           element.select();
         });
       }
     }
   });
 
-  return app;
+  return ngClickSelect;
 
 }));
