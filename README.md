@@ -2,6 +2,7 @@ ng-click-select
 ===============
 
 Angular directive to select contents of text input when clicked.
+Useful to allow user to easily copy value into their clipboard.
 
 [See demo.](https://rawgithub.com/adjohnson916/ng-click-select/master/index.html)
 
