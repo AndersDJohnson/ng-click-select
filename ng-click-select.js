@@ -13,7 +13,7 @@
   } else {
     return factory(angular);
   }
-}(angular || null, function(angular) {
+}(window.angular || null, function(angular) {
 
   /**
    * @ngdoc module
