@@ -7,6 +7,8 @@ Angular directive to select contents of text input when clicked.
 
 ## Install
 
+Depends on Angular and jQuery.
+
 Via Bower:
 
 ```sh
