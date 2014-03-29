@@ -6,6 +6,9 @@ Useful to allow user to easily copy value into their clipboard.
 
 [See demo.](https://rawgithub.com/adjohnson916/ng-click-select/master/index.html)
 
+
+Also [available at ngModules.org](http://ngmodules.org/modules/ng-click-select).
+
 ## Install
 
 Depends on Angular and jQuery.
