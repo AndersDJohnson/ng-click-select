@@ -30,7 +30,6 @@
     "index.html"
   ],
   "dependencies": {
-    "angular": "~1.2.14",
-    "jquery": "1"
+    "angular": "~1.2.14"
   }
 }
