@@ -46,7 +46,7 @@
       restrict: 'AC',
       link: function (scope, element, attrs) {
         element.bind('click', function () {
-          element.select();
+          this.select();
         });
       }
     }
