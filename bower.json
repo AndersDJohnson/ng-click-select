@@ -1,7 +1,7 @@
 {
   "name": "ng-click-select",
   "main": "ng-click-select.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/AndersDJohnson/click-select",
   "description": "Angular directive to select contents of text input when clicked.",
   "keywords": [
