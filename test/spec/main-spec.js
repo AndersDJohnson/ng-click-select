@@ -8,7 +8,7 @@ describe('angular', function () {
 
   it('should select all', function () {
 
-    browser.get('test/index.html');
+    browser.get('test/spec/main.html');
     var text1 = element(by.id('text-1'));
     var text2 = element(by.id('textarea-1'));
     var ghost = element(by.id('ghost'));
