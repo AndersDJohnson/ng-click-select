@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - '0.10'
-script: "./node_modules/.bin/grunt travis"
+script: ./node_modules/.bin/grunt travis
 env:
   global:
-    secure: iW5k2yHsjsIxd8npGFiHkO0DAJRrpgvtJma5oOtlWAW6CyxQ2R6AObK+IlqW0OZjqBriORtfkxQj7i7CGBhiKqPC8RIZGKOfECmGUSyFlEAspz9/NNxed+6xZNa6QUApzU9q/bDDVkj1daocYMH4b0bUUCq3dtEqUtZbEadAdaw=
+    secure: VF+Vj7oYgVsCYZAxan1nmOdVCWwh+EuczWzzzWwl5SNvh9cGhQVLJqYvSX1iikPX5T+lvdOiYbGRqTaEpTiQRH8zXiX9FVJ4qoYMgNPKOPmKy+yWr9VqyWPQwnfojSI404oH5EnbaRqYw9mAGMHVZd4ULYHE9cqzNamv/krFPTU=
