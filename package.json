@@ -16,7 +16,7 @@
     "serve": "^1.4.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/grunt test-e2e"
+    "test": "grunt test-e2e"
   },
   "repository": {
     "type": "git",
