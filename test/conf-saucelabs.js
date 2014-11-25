@@ -4,26 +4,20 @@
 var repo = process.env.TRAVIS_REPO_SLUG || 'adjohnson916/ng-click-select';
 var branch = process.env.TRAVIS_BRANCH || 'testing';
 var buildNumber = process.env.TRAVIS_BUILD_NUMBER || 0;
-/**
- * http://docs.travis-ci.com/user/encryption-keys/
- */
-var sauceUser = process.env.SAUCE_USERNAME || 'adjohnson916';
-var sauceKey = process.env.SAUCE_ACCESS_KEY;
 
-if (! sauceKey) {
-  throw new Error("Must provide SAUCE_ACCESS_KEY environment variable.");
-}
+var sauceConfig = require('../conf/sauce');
+var connectConfig = require('../conf/connect');
 
-var baseUrl = 'https://rawgit.com/' + repo + '/' + branch + '/';
 var specs = require('./specs');
 
 var sauceName = 'Travis "' + repo + '"' + ' ' + buildNumber + ' (' + branch + ')';
 
 exports.config = {
   specs: specs,
-  baseUrl: baseUrl,
-  sauceUser: sauceUser,
-  sauceKey: sauceKey,
+  baseUrl: connectConfig.url,
+  sauceUser: sauceConfig.user,
+  sauceKey: sauceConfig.key,
+  sauceSeleniumAddress: sauceConfig.connect.seleniumAddress,
   /**
    * https://docs.saucelabs.com/reference/test-configuration/
    */
@@ -31,6 +25,7 @@ exports.config = {
     browserName: 'chrome',
     build: buildNumber,
     tags: [repo, repo + ' (' + branch + ')', branch],
-    name: sauceName
+    name: sauceName,
+    'tunnel-identifier': sauceConfig.connect.tunnelIdentifier
   }
 };
