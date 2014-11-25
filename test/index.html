@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ng-click-select</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  </head>
+  <body ng-app="ngClickSelectDemo">
+
+    <div>
+      <input type="text" id="text-1" ng-click-select value="Click this text." />
+    </div>
+
+    <div>
+      <textarea class="ng-click-select" id="textarea-1">Also works for textareas.</textarea>
+    </div>
+
+    <div>
+      <input type="text" id="ghost" />
+    </div>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../ng-click-select.js"></script>
+    <script>
+      angular.module('ngClickSelectDemo', ['ngClickSelect']);
+    </script>
+  </body>
+</html>
