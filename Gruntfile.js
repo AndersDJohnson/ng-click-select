@@ -37,7 +37,7 @@ module.exports = function (grunt) {
       saucelabs: {
         options: {
           configFile: './test/conf-saucelabs.js',
-          keepAlive: true // don't exit so we can disconnect from Sauce Connect
+          keepAlive: false // may want to keepAlive on failure to disconnect from Sauce Connect
         }
       },
     },
