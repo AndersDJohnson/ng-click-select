@@ -1,6 +1,8 @@
 ng-click-select
 ===============
 
+![bower badge](https://badge.fury.io/bo/ng-click-select.svg)
+
 Angular directive to select contents of text input when clicked.
 Useful to allow user to easily copy value into their clipboard.
 
