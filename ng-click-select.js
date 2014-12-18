@@ -45,7 +45,7 @@
     return {
       restrict: 'AC',
       link: function (scope, element, attrs) {
-        element.bind('click', function () {
+        element.bind('focus', function () {
           this.select();
         });
       }
