@@ -25,7 +25,7 @@ Then include `src/ng-click-select.js` in your page.
 And add it as a dependency of your module, e.g.:
 
 ```js
-import ClickSelect from 'src/ng-click-select';
+import NgClickSelect from 'src/ng-click-select';
 
 @Component({
   /* ... */
