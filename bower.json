@@ -6,7 +6,8 @@
   "description": "Angular directive to select contents of text input when clicked.",
   "keywords": [
     "ngClickSelect",
-    "angular",
+    "angular",,
+    "angular2"
     "angularjs",
     "angular-js",
     "angular.js",
@@ -26,10 +27,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "index.html"
+    "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.14"
   }
 }

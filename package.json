@@ -1,0 +1,16 @@
+{
+  "name": "ng-click-select",
+  "version": "2.0.0-beta",
+  "description": "",
+  "main": "src/ng-click-select.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.5.0-beta"
+  }
+}
