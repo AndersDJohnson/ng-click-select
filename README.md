@@ -11,7 +11,7 @@ Also [available at ngModules.org](http://ngmodules.org/modules/ng-click-select).
 
 ## Install
 
-Depends on Angular and jQuery.
+Depends on Angular.
 
 Via Bower:
 
