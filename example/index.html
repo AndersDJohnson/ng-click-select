@@ -13,7 +13,7 @@
 
   <script>
     System.config({
-      baseURL : '/'
+      baseURL: window.location.pathname.replace(/\/?example\/?(index.html)?$/, '/')
     });
     System.import('example/example');
   </script>
