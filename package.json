@@ -1,0 +1,36 @@
+{
+  "name": "ng-click-select",
+  "version": "0.1.4",
+  "description": "Click-to-select inputs for Angular.",
+  "main": "ng-click-select.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndersDJohnson/ng-click-select.git"
+  },
+  "keywords": [
+    "ngClickSelect",
+    "angular",
+    "angular2",
+    "angularjs",
+    "angular-js",
+    "angular.js",
+    "angular-module",
+    "angular-directive",
+    "angular-directives",
+    "directive",
+    "directives",
+    "ngmodules"
+  ],
+  "author": "Anders D. Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndersDJohnson/ng-click-select/issues"
+  },
+  "homepage": "https://github.com/AndersDJohnson/ng-click-select",
+  "dependencies": {
+    "angular": "1"
+  }
+}
