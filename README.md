@@ -26,7 +26,7 @@ $ bower install --save ng-click-select
 
 Then include `src/ng-click-select.js` in your page.
 
-And add it as a dependency of your module, e.g.:
+And/or add it as a dependency of your module, e.g.:
 
 ```js
 import NgClickSelect from 'src/ng-click-select';
