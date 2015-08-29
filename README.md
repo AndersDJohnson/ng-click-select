@@ -65,5 +65,6 @@ tsd reinstall
 npm run tsc
 ```
 
+
 [1.x]: https://github.com/AndersDJohnson/ng-click-select/tree/v1.x
 [demo]: https://AndersDJohnson.github.io/ng-click-select/example/
