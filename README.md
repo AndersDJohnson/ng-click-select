@@ -3,7 +3,7 @@ ng-click-select
 
 ***This branch is for Angular 2. For Angular 1.x, see the [1.x branch][1.x].***
 
-Angular directive to select contents of text input when clicked.
+Angular directive to select contents of text input or text area elements when clicked.
 Useful to allow user to easily copy value into their clipboard.
 
 [See demo][demo].
