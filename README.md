@@ -4,7 +4,7 @@ ng-click-select
 ***This branch is for Angular 2. For Angular 1.x, see the [1.x branch][1.x].***
 
 Angular directive to select contents of text input or text area elements when clicked.
-Useful to allow user to easily copy value into their clipboard.
+Useful to allow user to easily copy value into their clipboard without a Flash-based solution like [ZeroClipboard].
 
 [See demo][demo].
 
@@ -68,3 +68,4 @@ npm run tsc
 
 [1.x]: https://github.com/AndersDJohnson/ng-click-select/tree/v1.x
 [demo]: https://AndersDJohnson.github.io/ng-click-select/example/
+[zeroclipboard]: https://github.com/zeroclipboard/zeroclipboard
