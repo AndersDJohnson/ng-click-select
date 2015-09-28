@@ -16,7 +16,7 @@ Depends on Angular.
 Via Bower:
 
 ```sh
-$ bower install --save ng-click-select
+$ bower install --save ng-click-select#1
 ```
 
 Then include `ng-click-select.js` in your page.
