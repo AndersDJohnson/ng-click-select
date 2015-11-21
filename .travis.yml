@@ -8,3 +8,4 @@ script: ./node_modules/.bin/grunt travis
 env:
   global:
     secure: VF+Vj7oYgVsCYZAxan1nmOdVCWwh+EuczWzzzWwl5SNvh9cGhQVLJqYvSX1iikPX5T+lvdOiYbGRqTaEpTiQRH8zXiX9FVJ4qoYMgNPKOPmKy+yWr9VqyWPQwnfojSI404oH5EnbaRqYw9mAGMHVZd4ULYHE9cqzNamv/krFPTU=
+sudo: false
