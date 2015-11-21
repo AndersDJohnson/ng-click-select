@@ -1,6 +1,8 @@
 ng-click-select
 ===============
 
+[![Build Status](https://travis-ci.org/adjohnson916/ng-click-select.svg)](https://travis-ci.org/adjohnson916/ng-click-select)
+
 Angular directive to select contents of text input when clicked.
 Useful to allow user to easily copy value into their clipboard.
 
