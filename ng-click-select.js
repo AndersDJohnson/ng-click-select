@@ -49,6 +49,8 @@
       link: function (scope, element, attrs) {
         element.bind('click', function () {
           this.select();
+          this.selectionStart = 0;
+          this.selectionEnd = 9999;
         });
       }
     }
