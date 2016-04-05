@@ -29,16 +29,16 @@
    * @name ngScope.directive:ngClickSelect
    * @restrict AC
    * @example
-   <doc:example>
-   <doc:source>
-   <input type="text" ng-click-select />
-   </doc:source>
-   </doc:example>
-   <doc:example>
-   <doc:source>
-   <textarea class="ng-click-select"></textarea>
-   </doc:source>
-   </doc:example>
+     <doc:example>
+       <doc:source>
+          <input type="text" ng-click-select />
+       </doc:source>
+     </doc:example>
+     <doc:example>
+       <doc:source>
+          <textarea class="ng-click-select"></textarea>
+       </doc:source>
+     </doc:example>
    *
    * @description
    * Directive to select contents of text input when clicked.
