@@ -29,16 +29,16 @@
    * @name ngScope.directive:ngClickSelect
    * @restrict AC
    * @example
-     <doc:example>
-       <doc:source>
-          <input type="text" ng-click-select />
-       </doc:source>
-     </doc:example>
-     <doc:example>
-       <doc:source>
-          <textarea class="ng-click-select"></textarea>
-       </doc:source>
-     </doc:example>
+   <doc:example>
+   <doc:source>
+   <input type="text" ng-click-select />
+   </doc:source>
+   </doc:example>
+   <doc:example>
+   <doc:source>
+   <textarea class="ng-click-select"></textarea>
+   </doc:source>
+   </doc:example>
    *
    * @description
    * Directive to select contents of text input when clicked.
@@ -48,8 +48,12 @@
       restrict: 'AC',
       link: function (scope, element, attrs) {
         element.bind('click', function () {
-          this.selectionStart = 0;
-          this.selectionEnd = 9999;
+          if ('selectionStart' in this) {
+            this.selectionStart = 0;
+            this.selectionEnd = 9999;
+          } else {
+            this.select();
+          }
         });
       }
     }
