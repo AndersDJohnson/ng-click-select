@@ -48,7 +48,12 @@
       restrict: 'AC',
       link: function (scope, element, attrs) {
         element.bind('click', function () {
-          this.select();
+          if ('selectionStart' in this) {
+            this.selectionStart = 0;
+            this.selectionEnd = 9999;
+          } else {
+            this.select();
+          }
         });
       }
     }
