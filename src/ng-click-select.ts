@@ -14,7 +14,13 @@ import {Directive} from 'angular2/angular2';
 })
 class ClickSelect {
   click(e) {
-    e.target.select();
+    var t = e.target;
+    if ('selectionStart' in t) {
+      t.selectionStart = 0;
+      t.selectionEnd = 9999;
+    } else {
+      t.select();
+    }
   }
 }
 
