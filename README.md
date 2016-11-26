@@ -12,7 +12,7 @@ Also [available at ngModules.org](http://ngmodules.org/modules/ng-click-select).
 
 ## In The Wild
 These projects use ng-click-select:
-* [SecretStash](https://github.com/AndersDJohnson/secretstash)
+* [SecretStash](https://secretstash.herokuapp.com/)
 
 ## Install
 
