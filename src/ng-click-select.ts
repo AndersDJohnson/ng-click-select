@@ -1,25 +1,24 @@
-/// <reference path="../typings/angular2/angular2.d.ts" />
 /**
  * Directive for click select behavior.
  */
 
-import {Directive} from 'angular2/angular2';
+import {Directive} from '@angular/core';
 
 
 @Directive({
   selector: '[ng-click-select], .ng-click-select',
-  hostListeners: {
-    click: 'click($event)'
+  host: {
+    '(click)': 'click($event)'
   }
 })
 class ClickSelect {
-  click(e) {
-    var t = e.target;
+  click(event:Event) {
+    var t = event.target;
     if ('selectionStart' in t) {
-      t.selectionStart = 0;
-      t.selectionEnd = 9999;
+      (t as any).selectionStart = 0;
+      (t as any).selectionEnd = 9999;
     } else {
-      t.select();
+      (t as any).select();
     }
   }
 }

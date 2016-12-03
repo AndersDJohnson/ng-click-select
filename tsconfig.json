@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
+    "target": "es5",
     "module": "commonjs",
-    "target": "es5"
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
   },
+  "compileOnSave": true,
   "files": [
     "example/example.ts",
-    "typings/angular2/angular2.d.ts"
+    "src/ng-click-select.ts"
+  ],
+  "exclude": [
+    "node_modules/*",
+    "**/*-aot.ts"
   ]
 }

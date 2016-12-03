@@ -3,6 +3,7 @@ node_modules
 npm-debug.log
 sc.log
 
+**/*.js.map
 typings
 example/**/*.js
 src/**/*.js
