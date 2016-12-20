@@ -12,8 +12,8 @@ import {Directive} from '@angular/core';
   }
 })
 class ClickSelect {
-  click(event:Event) {
-    var t = <HTMLInputElement|HTMLTextAreaElement> event.target;
+  click(event: Event) {
+    const t = <HTMLInputElement|HTMLTextAreaElement> event.target;
     if ('selectionStart' in t) {
       t.selectionStart = 0;
       t.selectionEnd = 9999;

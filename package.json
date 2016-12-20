@@ -5,7 +5,9 @@
   "main": "src/ng-click-select.js",
   "scripts": {
     "tsc": "tsc",
-    "tsc:watch": "tsc --watch"
+    "tsc:watch": "tsc --watch",
+    "lint": "tslint src/**/*.ts",
+    "test": "npm run lint"
   },
   "author": "",
   "license": "MIT",
@@ -21,6 +23,7 @@
     "rxjs": "^5.0.0-rc.4",
     "systemjs": "^0.19.41",
     "tsc": "^1.20150623.0",
+    "tslint": "^4.1.1",
     "typescript": "^2.0.10",
     "zone.js": "^0.7.2"
   }
