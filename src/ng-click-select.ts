@@ -4,15 +4,14 @@
 
 import {Directive} from '@angular/core';
 
-
 @Directive({
-  selector: '[ng-click-select], .ng-click-select',
   host: {
-    '(click)': 'click($event)'
-  }
+    '(click)': 'click($event)',
+  },
+  selector: '[ng-click-select], .ng-click-select',
 })
 class ClickSelect {
-  click(event: Event) {
+  public click(event: Event) {
     const t = <HTMLInputElement|HTMLTextAreaElement> event.target;
     if ('selectionStart' in t) {
       t.selectionStart = 0;
@@ -22,6 +21,5 @@ class ClickSelect {
     }
   }
 }
-
 
 export default ClickSelect;
