@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/ng-click-select.js",
   "scripts": {
-    "tsc": "tsc",
-    "tsc:watch": "tsc --watch",
+    "build": "webpack",
+    "watch": "webpack -w",
     "lint": "tslint src/**/*.ts",
     "test": "npm run lint"
   },
