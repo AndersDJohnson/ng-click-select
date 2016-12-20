@@ -1,18 +1,12 @@
 'use strict';
 
-const path = require('path');
-const webpack = require('webpack');
-
-const rootDir = path.resolve(__dirname);
-
 module.exports = {
   entry: {
-    example: [ path.resolve(rootDir, 'example', 'example') ],
-    // vendor: [ path.resolve(rootDir, 'example', 'vendor') ]
+    example: './example/example.ts'
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(rootDir, 'example')
+    path: './example'
   },
   devtool: 'inline-source-map',
   module: {
@@ -23,7 +17,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.ts'],
-    modulesDirectories: ['node_modules'],
-    // root: path.resolve('.', '')
+    modulesDirectories: ['node_modules']
   },
 };
