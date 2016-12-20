@@ -2,6 +2,11 @@
  * Example of click select.
  */
 
+// polyfills
+import 'core-js/client/shim.min.js';
+import 'zone.js/dist/zone.js';
+import 'reflect-metadata';
+
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
