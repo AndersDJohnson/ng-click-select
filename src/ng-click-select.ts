@@ -13,12 +13,12 @@ import {Directive} from '@angular/core';
 })
 class ClickSelect {
   click(event:Event) {
-    var t = event.target;
+    var t = <HTMLInputElement|HTMLTextAreaElement> event.target;
     if ('selectionStart' in t) {
-      (t as any).selectionStart = 0;
-      (t as any).selectionEnd = 9999;
+      t.selectionStart = 0;
+      t.selectionEnd = 9999;
     } else {
-      (t as any).select();
+      t.select();
     }
   }
 }
