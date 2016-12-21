@@ -2,6 +2,8 @@
  * Directive for click select behavior.
  */
 
+/// <reference path="../typings/index.d.ts" />
+
 import {Directive} from '@angular/core';
 
 @Directive({
